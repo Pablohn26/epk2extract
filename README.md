@@ -71,6 +71,11 @@ Mandriva/Mageia:
 urpmi git task-c++-devel cmake liblzo-devel libopenssl-devel glibc-devel --auto
 ```
 
+Fedora/CentOS/Red Hat:
+```shell
+yum install git make automake gcc gcc-c++ kernel-devel cmake lzo-devel openssl-devel glibc-devel
+```
+
 ### Build it
 ```shell
 ./build.sh
